@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bc-yellow{
+    background-color: #fffbad;
+}
+.bg-principal{
+    background-color: rgb(54, 54, 54);
+}
+.bt-color{
+    background-color: rgb(54, 54, 54) ;
+    color: #fffbad;
+    border-color: #fffbad;
+}
+.bt-color:hover{
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(54, 54, 54);
+    border-color: rgb(54, 54, 54);
+}
