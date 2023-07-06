@@ -5,13 +5,14 @@
 }
 .color-principal{
     color: #fffbad;
+    font-family: 'Titillium Web', sans-serif;
 }
 .nav-bc-yellow{
     background: linear-gradient(to right, #f5f4eb, rgb(243, 253, 149))
 }
 
 .bg-principal{
-    background: linear-gradient(to right, #575757, rgb(230, 235, 185))
+    background: linear-gradient(to right, #3b3b3b, rgb(174, 177, 146))
 }
 .bt-color{
     background-color: rgb(54, 54, 54) ;
@@ -22,4 +23,17 @@
     background-color: rgb(255, 255, 255) ;
     color: rgb(54, 54, 54);
     border-color: rgb(54, 54, 54);
+}
+@media (min-width: 300px) and (max-width: 576px) {
+    .d-xss-none {
+        display: none;
+    }
+  }
+.btn-warning{
+    background-color: rgb(243, 253, 149);
+    border-color: rgb(206, 216, 114);
+}
+.btn-warning:hover{
+    background-color: rgb(252, 255, 219);
+    border-color: rgb(160, 168, 89);
 }
