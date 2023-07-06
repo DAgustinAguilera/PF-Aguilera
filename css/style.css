@@ -10,7 +10,13 @@
 .nav-bc-yellow{
     background: linear-gradient(to right, #f5f4eb, rgb(243, 253, 149))
 }
-
+.container-glass{
+    background-color: rgba(255, 255, 255, 0.062);
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #fffbad;
+}
 .bg-principal{
     background: linear-gradient(to right, #3b3b3b, rgb(174, 177, 146))
 }
@@ -36,4 +42,9 @@
 .btn-warning:hover{
     background-color: rgb(252, 255, 219);
     border-color: rgb(160, 168, 89);
+}
+@media (min-width: 992px) {
+    .vh-50{
+        height: 53vh;
+    }
 }
