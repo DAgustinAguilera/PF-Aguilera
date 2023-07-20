@@ -1,0 +1,25 @@
+.nav-bc-yellow{
+    background: linear-gradient(to right, #f5f4eb, rgb(243, 253, 149))
+}
+
+.bt-color{
+    background-color: $estandar-gris;
+    color:  $color-primario;
+    border-color:  $color-primario;
+
+    &:hover{
+        background-color: $estandar-grisclaro;
+        color: $estandar-gris;
+        border-color: $estandar-gris;
+    }
+}
+
+.btn-warning{
+    background-color: $color-primario;
+    border-color: $color-primario;
+
+    &:hover{
+        background-color: $estandar-grisclaro;
+        border-color: rgb(160, 168, 89);
+    }
+}

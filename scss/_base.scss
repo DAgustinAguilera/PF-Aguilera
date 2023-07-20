@@ -1,0 +1,13 @@
+$color-primario: #fffbad;
+$estandar-gris: rgb(54, 54, 54);
+$estandar-grisclaro: rgb(246, 255, 216);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.color-principal{
+    color: $color-primario;
+    font-family: 'Titillium Web', sans-serif;
+}

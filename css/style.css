@@ -1,50 +1,69 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.color-principal{
-    color: #fffbad;
-    font-family: 'Titillium Web', sans-serif;
+
+.color-principal {
+  color: #fffbad;
+  font-family: "Titillium Web", sans-serif;
 }
-.nav-bc-yellow{
-    background: linear-gradient(to right, #f5f4eb, rgb(243, 253, 149))
+
+.nav-bc-yellow {
+  background: linear-gradient(to right, #f5f4eb, rgb(243, 253, 149));
 }
-.container-glass{
-    background-color: rgba(255, 255, 255, 0.062);
-    backdrop-filter: blur(6px);
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #fffbad;
+
+.bt-color {
+  background-color: rgb(54, 54, 54);
+  color: #fffbad;
+  border-color: #fffbad;
 }
-.bg-principal{
-    background: linear-gradient(to right, #3b3b3b, rgb(174, 177, 146))
+.bt-color:hover {
+  background-color: rgb(246, 255, 216);
+  color: rgb(54, 54, 54);
+  border-color: rgb(54, 54, 54);
 }
-.bt-color{
-    background-color: rgb(54, 54, 54) ;
-    color: #fffbad;
-    border-color: #fffbad;
+
+.btn-warning {
+  background-color: #fffbad;
+  border-color: #fffbad;
 }
-.bt-color:hover{
-    background-color: rgb(255, 255, 255) ;
-    color: rgb(54, 54, 54);
-    border-color: rgb(54, 54, 54);
+.btn-warning:hover {
+  background-color: rgb(246, 255, 216);
+  border-color: rgb(160, 168, 89);
 }
+
+.container-glass {
+  background-color: rgba(255, 255, 255, 0.062);
+  backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #fffbad;
+}
+
+.bg-principal {
+  background: linear-gradient(to right, #3b3b3b, rgb(174, 177, 146));
+}
+
 @media (min-width: 300px) and (max-width: 576px) {
-    .d-xss-none {
-        display: none;
-    }
+  .d-xss-none {
+    display: none;
   }
-.btn-warning{
-    background-color: rgb(243, 253, 149);
-    border-color: rgb(206, 216, 114);
-}
-.btn-warning:hover{
-    background-color: rgb(252, 255, 219);
-    border-color: rgb(160, 168, 89);
 }
 @media (min-width: 992px) {
-    .vh-50{
-        height: 53vh;
-    }
+  .vh-50 {
+    height: 53vh;
+  }
 }
+@media (min-width: 300px) and (max-width: 576px) {
+  .d-xss-none {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .vh-50 {
+    height: 53vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
