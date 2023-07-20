@@ -1,0 +1,6 @@
+.card{
+    background-color: $estandar-grisclaro;
+    &:hover{
+        background-color: $color-primario;
+    }
+}

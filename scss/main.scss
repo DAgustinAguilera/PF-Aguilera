@@ -2,6 +2,7 @@
 @import "./base";
 
 @import "./components/header";
+@import "./components/cards";
 
 @import "./pages/contactanos";
 @import "./pages/index";
@@ -9,13 +10,3 @@
 
 
 
-@media (min-width: 300px) and (max-width: 576px) {
-    .d-xss-none {
-        display: none;
-    }
-  }
-  @media (min-width: 992px) {
-    .vh-50{
-        height: 53vh;
-    }
-}
