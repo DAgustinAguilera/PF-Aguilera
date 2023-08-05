@@ -33,6 +33,10 @@
   border-color: rgb(160, 168, 89);
 }
 
+.carousel-caption{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .card {
   background-color: rgb(246, 255, 216);
 }
